@@ -13,3 +13,7 @@ build:
 
 start:
 	docker run -it --rm -p 8081:8081 -v "$$(pwd)/$(APP_DIR)":/app $(IMAGE_NAME)
+
+git:
+	git config --global user.email "ana.luiza.kauffman@gmail.com"
+	git config --global user.name "Ana"
